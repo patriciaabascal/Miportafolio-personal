@@ -34,3 +34,15 @@ header{
 .logo:hover{
     transform: scale(1.1);
 }
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+li a::before{
+    position: relative;
+    color: white;
+    font-weight: 300;
+}
+li a::before{
+    position: absolute;
+}
