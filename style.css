@@ -45,4 +45,35 @@ li a::before{
 }
 li a::before{
     position: absolute;
+    content:'';
+    width: 0;
+    left: 0;
+    height: 5px;
+    top: 25px;
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+    background-color: linear-gradient(to right,rgb(0,157,255),rgb(255,0,255));    
+}
+li a::before{
+    width: 100%;
+}
+.visit-btn{
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    background-color: linear-gradient(to right,rgb(0,157,255),rgb(255,0,255));    
+}
+.visit-btn:hover{
+    background-color: linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));     
+    transform: scale(1.03);
+}
+#menu-icon{
+    font-size: 2rem;
+    display: none;
 }
