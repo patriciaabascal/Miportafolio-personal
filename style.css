@@ -107,3 +107,15 @@ section{
     justify-content: center;
     gap: 1.5rem;
 }
+.info-box h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.info-box h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.info-box span{
+    background-color: linear-gradient(to right,rgb(255,0,255),rgb(0,157,255));       
+}
